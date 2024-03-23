@@ -47,6 +47,14 @@ export const useTodosStore = defineStore('todos', {
         console.log('error: ', error);
       }
     },
+    // async editTodo(id, todoData) {
+    //   try {
+    //     const response = await axios.put(`${BASE_URL}/todos/${id}`, todoData)
+    //     console.log('update todo: ', response.data);
+    //   } catch (error) {
+    //     console.log('error: ', error);
+    //   }
+    // },
     async removeTodo(id) {
       try {
         const response = await axios.delete(`${BASE_URL}/todos/${id}`)

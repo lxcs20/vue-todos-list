@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NotoSerifLao-Regular.ttf */
+
+
+
+@font-face {
+    font-family: 'laosans';
+    src: url("src/assets/fonts/NotoSerifLao-Regular.ttf") format('truetype');
+}
+
+
+* {
+    font-family: 'laosans';
+}
